@@ -22,6 +22,7 @@ jobs:
         
     - name: Generate info
       run: |
+        echo 1
         cd ./app/src/main/java/top/xjunz/automator
         touch Constants.kt
         echo "package top.xjunz.automator" >> Constants.kt
